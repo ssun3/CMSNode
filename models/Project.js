@@ -8,7 +8,7 @@ const ProjectSchema = new Schema({
   title: String,
   role: String, 
   description: String,
-  work: {type: Schema.Types.ObjectId, ref: 'work'},
+  workplace: {type: Schema.Types.ObjectId, ref: 'work'},
   category: String, 
   technologiesUsed: [TechnologySchema],
   hostedUrl: String,

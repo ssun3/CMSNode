@@ -8,7 +8,8 @@ FileSchema = new Schema({
   url: String, 
   thumbnailUrl: String, 
   mimeType: String,
-  order: Number
+  order: Number,
+  key: String
 });
 
 FileSchema.plugin(toJson);
